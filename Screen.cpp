@@ -30,10 +30,7 @@ bool Screen::init() {
     m_buffer = new Uint32[WIDTH*HEIGHT];//define memory for each pixel( each in type Uint32)
     m_buffer2 = new Uint32[WIDTH*HEIGHT];
     memset(m_buffer, 0, WIDTH*HEIGHT*sizeof(Uint32));
-    memset(m_buffer2, 0, WIDTH*HEIGHT*sizeof(Uint32));//memset - gives same value for all vars in memory set
-    /*for (int i=0;i<HEIGHT*WIDTH;i++){
-        m_buffer[i] = 0x123456ff;//hex, written in line 0x- cpp hex prefix, 00 -- FF, red green blue alpha
-    }*/
+    memset(m_buffer2, 0, WIDTH*HEIGHT*sizeof(Uint32));
     return true;
 }
 
