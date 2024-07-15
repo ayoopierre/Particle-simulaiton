@@ -1,7 +1,7 @@
 #ifndef PARTICLE_H_
 #define PARTICLE_H_
 
-struct Particle{//struct is same as class, but is automaticly public
+struct Particle{
     double m_x;
     double m_y;
     double m_speed;
